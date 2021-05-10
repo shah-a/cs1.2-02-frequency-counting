@@ -9,7 +9,7 @@ class LinkedList:
         new_node.next = self.head
         self.head = new_node
 
-    def find(self, item):
+    def find(self, item, increase=False):
         current = self.head
         found = False
         counter = 0
@@ -17,6 +17,8 @@ class LinkedList:
         while current != None and not found:
             if current.data == item:
                 found = True
+                if increase:
+                    current.data[1] += 1  # increases frequency by 1
             else:
                 current = current.next
                 counter += 1
