@@ -40,5 +40,6 @@ class HashTable:
     # blooms: 1
     # erase: 2
     def print_key_values(self):
-        for linked_list in self.arr:
+        for i, linked_list in enumerate(self.arr):
+            print(f"BUCKET {i}:")
             linked_list.print_nodes()

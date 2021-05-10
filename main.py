@@ -7,12 +7,12 @@ print("Welcome to Word Frequency Counter! 📊")
 
 # Prompts the user to enter the name of a .txt file
 # For testing, enter example.txt
-filename = input("📝 What is the name of the .txt file? ")
+filename = input("📝 What is the name of the .txt file?: ")
 
 # Continues to prompt the user until an existing file is entered.
 while path.exists(filename) == False:
     print(f"\nThe file named {filename} does not exist in this directory. Try again. \n")
-    filename = input("🔁 What is the name of the .txt file? ")
+    filename = input("🔁 What is the name of the .txt file?: ")
 
 # Creates a list of every word from the txt file without
 # spaces and punctuation. It also lowercases the words.
