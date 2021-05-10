@@ -9,7 +9,7 @@ class LinkedList:
         new_node.next = self.head
         self.head = new_node
 
-    def find(self,item):
+    def find(self, item):
         current = self.head
         found = False
         counter = 0
