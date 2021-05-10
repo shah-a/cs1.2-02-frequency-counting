@@ -3,4 +3,3 @@ We have been one of only twelve colleges selected nationwide to host Computer Sc
 engineers from Yelp have taught multi week classes on technical interview readiness
 and we hold regular job fairs both on campus and online where companies like Microsoft Lyft Uber Twitch and others actively recruit our students
 In addition to learning the foundations of Computer Science by building products with experienced pro you will also be assigned a mentor so you always feel supported
-
